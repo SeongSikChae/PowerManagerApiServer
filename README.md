@@ -8,6 +8,7 @@
 * HTTP/2 통신 지원 추가 - HTTP2Switch true 시 HTTP/2 가 지원되면 HTTP/2 통신, false 이거나 지원되지 않으면 HTTP/1.1 통신
 * IncludeCipherSuites TLS 통신 시 특정 키 교환 알고리즘만 사용하도록 제하는 기능 추가 https://docs.microsoft.com/ko-kr/dotnet/api/system.net.security.tlsciphersuite?view=net-6.0
 * IncludeCipherSuites 설정 시 주의 사항 지원 되지 않는 알고리즘 선택하거나, HTTP2Switch를 true 했는데 HTTP/2에서 지원하지 않는 알고리즘 선택 시 웹서버 비정상 가동
+* PM-B540-W 1.01.30 이하 모든 디바이스는 IncludeCipherSuites 를 제한하지 말것 API 인증이 되지 않음
 
 ## Config.yml
 
