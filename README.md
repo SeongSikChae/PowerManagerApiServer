@@ -2,6 +2,10 @@
 
 ## history
 
+### v1.0.2
+
+* version Parameter 사용 시 Revision 정보가 표기되도록 추가.
+
 ### v1.0.1
 
 * HTTP2Switch(HTTP/2 지원 여부), IncludeCipherSuites(TLS 시 키 교환 알고리즘 제한) 설정 추가
